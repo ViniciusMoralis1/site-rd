@@ -13,8 +13,8 @@ export default createGlobalStyle`
   body {
     height: 100%;
     background: url("/img/bg.jpg") repeat;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 72px;
+    padding-right: 72px;
     overflow: hidden;
     font-size: 14px;
     color: #868686;

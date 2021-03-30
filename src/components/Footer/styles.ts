@@ -28,23 +28,16 @@ export const ContainerBrands = styled.div`
   margin-right: 280px;
 `
 
-// export const UniversLogo = styled.div`
-//   background-image: url(${universLogo});
-//   background-repeat: no-repeat;
-//   height: 40px;
-//   width: 75px;
-// `
-
-export const RdSmallLogo = styled.div`
-  background-image: url(${rdSmallLogo});
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 75px;
-`
-
 export const BrandLogo = styled.div<BrandLogoProps>`
   background-image: ${(props) => `url(${props.imageUrl})`};
   background-repeat: no-repeat;
   height: 40px;
   width: 90px;
+`
+
+export const RdSmallLogo = styled.div`
+  background-image: url(${rdSmallLogo});
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 46px;
 `

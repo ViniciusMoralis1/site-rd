@@ -15,11 +15,11 @@ export default function Footer(){
       </FooterText>
 
       <ContainerBrands>
-        <BrandLogo imageUrl={drogaRaiaLogo} ></BrandLogo>
-        <BrandLogo imageUrl={drogasilLogo} ></BrandLogo>
-        <BrandLogo imageUrl={farmasilLogo} ></BrandLogo>
-        <BrandLogo imageUrl={universLogo} ></BrandLogo>
-        <BrandLogo imageUrl={fourbioLogo} ></BrandLogo>
+        <BrandLogo imageUrl={drogaRaiaLogo} />
+        <BrandLogo imageUrl={drogasilLogo} />
+        <BrandLogo imageUrl={farmasilLogo} />
+        <BrandLogo imageUrl={universLogo} />
+        <BrandLogo imageUrl={fourbioLogo} />
       </ContainerBrands>
 
       <RdSmallLogo/>

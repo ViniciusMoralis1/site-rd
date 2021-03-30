@@ -21,7 +21,7 @@ export const Selections = styled.div`
   flex-direction: row;
   justify-content: space-around;
   margin-top: 12px;
-  width: 700px;
+  width: 500px;
 `
 
 export const Tech = styled.h1`
