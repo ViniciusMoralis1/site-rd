@@ -32,12 +32,12 @@ export const BrandLogo = styled.div<BrandLogoProps>`
   background-image: ${(props) => `url(${props.imageUrl})`};
   background-repeat: no-repeat;
   height: 40px;
-  width: 90px;
+  width: 80px;
 `
 
 export const RdSmallLogo = styled.div`
   background-image: url(${rdSmallLogo});
   background-repeat: no-repeat;
-  height: 40px;
-  width: 46px;
+  height: 32px;
+  width: 45px;
 `

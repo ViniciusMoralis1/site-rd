@@ -19,9 +19,9 @@ export const HeaderImage = styled.div`
 export const Selections = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 12px;
-  width: 500px;
+  width: 420px;
 `
 
 export const Tech = styled.h1`
@@ -29,4 +29,5 @@ export const Tech = styled.h1`
   font-size: 22px;
   color: #007f56;
   text-transform: uppercase;
+  letter-spacing: -2px;
 `
