@@ -3,8 +3,8 @@ import logo from '../../assets/rd.png';
 
 export const Container = styled.div`
   height: 110px;
-  width: 100%;
   display: flex;
+  flex-direction: row;
   align-content: center;
   justify-content: space-between;
 `
@@ -21,10 +21,12 @@ export const Selections = styled.div`
   flex-direction: row;
   justify-content: space-around;
   margin-top: 12px;
+  width: 700px;
 `
 
 export const Tech = styled.h1`
   font-weight: 300;
+  font-size: 22px;
   color: #007f56;
   text-transform: uppercase;
 `

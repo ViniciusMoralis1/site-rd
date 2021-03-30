@@ -3,7 +3,6 @@ import { Container, HeaderImage, Selections, Tech } from './styles';
 
 export default function Header(){
   return (
-    <section>
       <Container>
         <HeaderImage/>
 
@@ -16,6 +15,5 @@ export default function Header(){
         </Selections>
 
       </Container>
-    </section>
   );
 }
