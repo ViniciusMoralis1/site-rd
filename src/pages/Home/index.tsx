@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, ContainerText, Colors, Content, Box, Image, TextContainer } from './styles';
+import { Container, ContainerText, Colors, Content, Box, Image, TextContainer, Button } from './styles';
 
 const Home: React.FC = () => {
   return (
@@ -31,6 +31,7 @@ const Home: React.FC = () => {
               restante da informação deverá aparecer em<br/>
               scroll down.
             </h2>
+            <Button color={"#FE9481"}>Leia mais...</Button>
           </TextContainer>
         </Box>
         <Box color={"#FCDA92"}>
@@ -44,6 +45,7 @@ const Home: React.FC = () => {
               informação deverá aparecer completa em um<br/>
               popup na tela.
             </h2>
+            <Button color={"#FCDA92"}>Leia mais...</Button>
           </TextContainer>
         </Box>
         <Box color={"#9C8CB9"}>
@@ -57,6 +59,7 @@ const Home: React.FC = () => {
               modifique o tema do site para blackfriday a seu<br/>
               gosto.
             </h2>
+            <Button color={"#9C8CB9"}>alterar tema</Button>
           </TextContainer>
         </Box>
       </Content>

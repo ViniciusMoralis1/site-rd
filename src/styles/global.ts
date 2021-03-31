@@ -9,7 +9,7 @@ export default createGlobalStyle`
   };
   
   body {
-    height: 1200px;
+    height: 800px;
     background: url("/img/bg.jpg") repeat;
     padding-left: 72px;
     padding-right: 72px;
