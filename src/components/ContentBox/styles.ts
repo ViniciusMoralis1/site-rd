@@ -9,42 +9,6 @@ interface ImageProps {
   imageUrl: string;
 };
 
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-export const ContainerText = styled.div`
-  place-content: center;
-
-  h1 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 48px;
-    color: #007f56;
-    margin-bottom: 48px;
-  };
-
-  h1 > span {
-    font-weight: 800;
-  };
-
-  h2 {
-    font-size: 28px;
-    font-weight: 300;
-    text-align: center;
-  }
-`;
-
-export const Colors = styled.div<ColorsProps>`
-  display: inline-block;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  background-color: ${(props) => props.color};
-  margin-bottom: 6px;
-`;
-
 export const Content = styled.div`
   display: flex;
   flex-direction: row;
