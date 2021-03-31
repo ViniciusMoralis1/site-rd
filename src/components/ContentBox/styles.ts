@@ -30,7 +30,7 @@ export const Container = styled.div`
 export const Box = styled.div<ColorsProps>`
   display: flex;
   width: 380px;
-  height: 400px; //280px colorido + 180px branco
+  height: 400px;
   background-color: ${(props) => props.color};
   justify-content: center;
   align-items: center;

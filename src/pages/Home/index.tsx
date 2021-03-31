@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ContentBox from '../../components/ContentBox';
 
-import { Container, ContainerText, Colors, Content, Box, Image, TextContainer, Button } from './styles';
+import { Container, ContainerText, Colors } from './styles';
 
 const Home: React.FC = () => {
   return (

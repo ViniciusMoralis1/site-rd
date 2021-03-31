@@ -9,7 +9,6 @@ const ContentBox: React.FC = () => {
 
   const showMoreScrollDown = () => {
     setShowMore(!showMore);
-    console.log(showMore);
   };
 
   const showMorePopup = () => {
