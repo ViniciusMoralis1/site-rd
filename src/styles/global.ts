@@ -6,15 +6,14 @@ export default createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', Helvetica, sans-serif, Arial;
-  }
+  };
   
   body {
-    height: 100%;
+    height: 1200px;
     background: url("/img/bg.jpg") repeat;
     padding-left: 72px;
     padding-right: 72px;
-    overflow: hidden;
     font-size: 14px;
     color: #868686;
-  }
+  };
 `;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, HeaderImage, Selections, Tech } from './styles';
 
-export default function Header(){
+const Header: React.FC = () => {
   return (
       <Container>
         <HeaderImage/>
@@ -16,4 +16,6 @@ export default function Header(){
 
       </Container>
   );
-}
+};
+
+export default Header;

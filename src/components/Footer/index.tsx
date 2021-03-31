@@ -7,7 +7,7 @@ import drogasilLogo from '../../assets/drogasil.png';
 import farmasilLogo from '../../assets/farmasil.png';
 import universLogo from '../../assets/univers.png';
 
-export default function Footer(){
+const Footer: React.FC = () => {
   return(
     <Container>
       <FooterText>
@@ -22,7 +22,9 @@ export default function Footer(){
         <BrandLogo imageUrl={fourbioLogo} />
       </ContainerBrands>
 
-      <RdSmallLogo/>
+      <RdSmallLogo />
     </Container>
   )
-}
+};
+
+export default Footer;
