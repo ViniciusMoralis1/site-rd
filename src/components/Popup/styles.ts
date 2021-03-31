@@ -10,11 +10,14 @@ interface ImageProps {
 };
 
 export const Container = styled.div`
+  align-self: center;
+  position: fixed;
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: center;
-  margin: 24px 280px 24px 0;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 32px;
 `;
 
 export const Box = styled.div<ColorsProps>`
