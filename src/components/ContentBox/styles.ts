@@ -14,7 +14,17 @@ export const Content = styled.div`
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  margin: 24px 280px 24px 0;
+  margin: 24px 0 24px 0;
+`;
+
+export const Container = styled.div`
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  max-width: 1240px;
 `;
 
 export const Box = styled.div<ColorsProps>`
@@ -58,6 +68,20 @@ export const TextContainer = styled.div`
   };
 `;
 
+export const InfoContainer = styled.div`
+  width: 100%;
+  background-color: #FFF;
+  padding: 16px 32px;
+  text-align: center;
+
+  h2 {
+    color: #868686;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 12px 0 12px 0;
+  };
+`;
+
 export const Button = styled.button<ColorsProps>`
   color: #FFF;
   font-size: 18px;
@@ -68,6 +92,27 @@ export const Button = styled.button<ColorsProps>`
   cursor: pointer;
   transition: filter .5s;
   margin: 12px 0 0 68%;
+
+  &:hover {
+    filter: brightness(108%);
+  };
+
+  &:active {
+    filter: opacity(80%);
+  };
+`;
+
+export const ButtonClose = styled.button<ColorsProps>`
+  color: #FFF;
+  align-self: flex-end;
+  font-size: 18px;
+  background-color: ${(props) => props.color};
+  padding: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: filter .5s;
+  margin: 12px 6px 16px 0;
 
   &:hover {
     filter: brightness(108%);
