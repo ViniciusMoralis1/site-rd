@@ -102,23 +102,7 @@ export const Button = styled.button<ColorsProps>`
   };
 `;
 
-export const ButtonClose = styled.button<ColorsProps>`
-  color: #FFF;
+export const ButtonClose = styled(Button)<ColorsProps>`
   align-self: flex-end;
-  font-size: 18px;
-  background-color: ${(props) => props.color};
-  padding: 4px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: filter .5s;
   margin: 12px 6px 16px 0;
-
-  &:hover {
-    filter: brightness(108%);
-  };
-
-  &:active {
-    filter: opacity(80%);
-  };
 `;
