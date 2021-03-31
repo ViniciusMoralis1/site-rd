@@ -11,13 +11,11 @@ interface ImageProps {
 
 export const Container = styled.div`
   display: flex;
-  height: 800px;
   flex-direction: column;
 `;
 
 export const ContainerText = styled.div`
   place-content: center;
-  margin-bottom: 24px;
 
   h1 {
     text-align: center;
@@ -52,7 +50,7 @@ export const Content = styled.div`
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  margin-right: 280px;
+  margin: 24px 280px 24px 0;
 `;
 
 export const Box = styled.div<ColorsProps>`
@@ -88,7 +86,6 @@ export const TextContainer = styled.div`
   h2 {
     color: #868686;
     font-size: 17px;
-    text-align: justify;
     margin: 8px 0 0 8px;
   };
 
@@ -106,10 +103,14 @@ export const Button = styled.button<ColorsProps>`
   outline: none;
   cursor: pointer;
   transition: filter .5s;
+  margin: 12px 0 0 68%;
 
-  &:hover{
-    /* background-color: ${(props) => `rgba(${props.color}, .2)`}; */
-    filter: brightness(90%);
+  &:hover {
+    filter: brightness(108%);
+  };
+
+  &:active {
+    filter: opacity(80%);
   };
 
 `;
